@@ -1,0 +1,15 @@
+﻿
+
+len := (xs: [real]) -> real
+	=> _len(xs, 0)
+	;
+
+_len := (xs: [real], res: real) -> real
+	| xs = [] => res
+	| else => _len(tail(xs), res + 1)
+	;
+
+
+main := () -> real
+	=> len([1, 2, 3, 4]);
+	;

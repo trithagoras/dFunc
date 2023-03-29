@@ -1,0 +1,10 @@
+﻿
+
+# todo: this is handled WITHIN the interpreter, hence the non-sensical return values
+head := (xs: [real]) -> real
+	=> 0
+	;
+
+tail := (xs: [real]) -> [real]
+	=> [0]
+	;
